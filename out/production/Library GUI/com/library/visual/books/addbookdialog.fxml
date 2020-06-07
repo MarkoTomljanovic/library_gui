@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.library.visual.books.AddBookController">
+<headerText>
+    Add new book
+</headerText>
+<content>
+    <GridPane hgap="10" vgap="10">
+        <Label text="Title:">
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </Label>
+        <TextField fx:id="titleField" GridPane.columnIndex="1">
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </TextField>
+        <Label text="Author's Last Name:" GridPane.rowIndex="4">
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </Label>
+        <TextField fx:id="authorsLastNameField" GridPane.columnIndex="1" GridPane.rowIndex="4">
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </TextField>
+        <Label text="Author's First Name:" GridPane.rowIndex="5">
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </Label>
+        <TextField fx:id="authorsFirstNameField" GridPane.columnIndex="1" GridPane.rowIndex="5">
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </TextField>
+        <Label text="Publisher:" GridPane.columnIndex="2">
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </Label>
+        <Label text="Publishing Year:" GridPane.columnIndex="2" GridPane.rowIndex="4">
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </Label>
+        <TextField fx:id="publisherField" GridPane.columnIndex="3">
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </TextField>
+        <TextField fx:id="publishingYearField" GridPane.columnIndex="3" GridPane.rowIndex="4">
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </TextField>
+    </GridPane>
+</content>
+</DialogPane>

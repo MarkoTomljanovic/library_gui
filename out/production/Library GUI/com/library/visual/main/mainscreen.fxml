@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.library.visual.main.MainScreenController">
+    <center>
+        <VBox alignment="CENTER" spacing="5">
+            <Button onAction="#membersScreen" prefWidth="200" text="Member Management">
+                <font>
+                    <Font size="14.0"/>
+                </font>
+                <padding>
+                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                </padding>
+            </Button>
+            <Button onAction="#bookScreen" prefWidth="200" text="Book Management">
+                <font>
+                    <Font size="14.0"/>
+                </font>
+                <padding>
+                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                </padding>
+            </Button>
+            <Button onAction="#loansScreen" prefWidth="200.0" text="Loans Management">
+                <font>
+                    <Font size="14.0"/>
+                </font>
+                <padding>
+                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                </padding>
+            </Button>
+            <Button onAction="#exit" prefWidth="200.0" text="Exit">
+                <font>
+                    <Font size="14.0"/>
+                </font>
+                <padding>
+                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                </padding>
+            </Button>
+        </VBox>
+    </center>
+</BorderPane>
