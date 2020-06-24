@@ -11,7 +11,6 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "books")
-//@Access(AccessType.PROPERTY)
 public class Books {
     private IntegerProperty id = new SimpleIntegerProperty();
     private StringProperty title = new SimpleStringProperty();
